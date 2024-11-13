@@ -6,9 +6,9 @@ channels:
   - defaults
 dependencies:
   - python=3.11
-  - biopython
+  - biopython=1.81
   - ml-collections
-  - ml_dtypes
+  - ml_dtypes=0.3.1
   - tensorflow
   - pip
   - pyrosetta
@@ -19,3 +19,4 @@ dependencies:
     - jaxlib
     - dm-haiku
     - dm-tree
+    - flax
